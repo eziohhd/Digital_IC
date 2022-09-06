@@ -11,8 +11,9 @@
 * Library Definition
 
     * Provide standard cells and IP Libraries.
-
+        ```
         read_libs "/.../....lib/.lib"
+        ```
 
 * Elaboration and Binding:
 
@@ -21,13 +22,15 @@
     * State reduction, encoding, register infering.
 
     * Bind all leaf cells to provided libraries.
-
+        ```
         elaborate toplevel
+        ```
 
 * Constraint Definition
 
     * Define clock frequency and other constraints.
-
+        ```
         read_sdc sdc/constraints.sdc
-        
+        ```
+
  
