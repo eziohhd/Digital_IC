@@ -33,4 +33,23 @@
         read_sdc sdc/constraints.sdc
         ```
 
- 
+* Pre-mapping Optimization:
+
+    * Map to generic cells and perform additional heuristics
+        ```
+        syn_generic
+        ```
+* Technology Mapping:
+    
+    * Map generic logic to technology libraries
+        ```
+        syn_map
+        ```
+* Post-mapping Optimization:
+
+    * Iterate over design, changing gate sizes, Boolean literals, architectural approaches to try and meet constraints.
+        ```
+        syn_opt
+        ```
+* Report and export
+
