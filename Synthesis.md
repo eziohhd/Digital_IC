@@ -71,6 +71,46 @@
 
     * ECO Cells
 
+* Buffers/Inverters
     
+    * Larger variet of drive strengths.
     
+    * "Clock cells" with balanced rise and fall delays.
 
+    * Delay cells
+
+    * Level Shifters
+
+* Sequential Cells:
+
+    * Many types of flip flops: pos/negedge, set/reset, Q/QB, enable 
+
+    * Lathches
+
+    * Integrated Clock Gating cells
+
+    * Scan enabled cells for ATPG
+
+* Physical Cells:
+
+    * Fillers, Tap cells, Antennas, DeCaps, EndCaps, Tie Cells
+
+## What files are in a standard cell library?
+
+![files_in_std_cell_lib](files_in_std_cell_lib.png)
+
+## Library Exchange Format(LEF)
+
+![lef](lef.png)
+
+## Technology LEF
+
+![technology_lef](tec_lef.png)
+    
+![technology_lef1](tec_lef1.png)
+
+![technology_lef2](tec_lef2.png)
+
+## Technology LEF
+
+![physical_synthesis](physical_synthesis.png)
