@@ -114,3 +114,7 @@
 ## Technology LEF
 
 ![physical_synthesis](physical_synthesis.png)
+
+## Elaboration and binding
+
+![elaboration_binding](elaboration_binding.png)
