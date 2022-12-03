@@ -40,7 +40,7 @@
         syn_generic
         ```
 * Technology Mapping:
-    
+  
     * Map generic logic to technology libraries
         ```
         syn_map
@@ -72,7 +72,7 @@
     * ECO Cells
 
 * Buffers/Inverters
-    
+  
     * Larger variet of drive strengths.
     
     * "Clock cells" with balanced rise and fall delays.
@@ -115,6 +115,54 @@
 
 ![physical_synthesis](physical_synthesis.png)
 
+## Liberty(.lib): Introduction
+
+* How do we know the delay through a gate in a logic path?
+
+    * Running SPICE is way too complex.
+
+    * Instead, create a timing model that will simplify the calculation.
+
+* Goal:
+
+    * For every timing arc, calculate:
+
+        * Propagation Delay(t<sub>pd</sub> )
+
+        * Output transition(t<sub>rise</sub> , t<sub>fall</sub>)
+
+    * Based on:
+
+        * Input net transition(t<sub>rise</sub> , t<sub>fall</sub>)
+
+        * Output Load Capacitance(C<sub>load</sub>)
+
+Note that evevry .lib will provide timing/power/noise information for a single corner, i.e., **process, voltage, temperature, RCX**, etc.
+
 ## Elaboration and binding
 
 ![elaboration_binding](elaboration_binding.png)
+
+## Constraint Definition
+
+* Following **Elaboration**, the design is loaded into the synthesis tool and stored inside a data structure.
+
+* Hierarchical ports(inputs/outputs) and registers can be accessed by name.
+
+    ```
+    set in_ports [get_ports IN*]
+    
+    set regs [get_cells -hier *_reg]
+    ```
+    
+* At this point, we can load the design constraints in **SDC** format.
+
+    ```
+    read_sdc -verbose sdc/constraints.sdc
+    ```
+    * For example, to create a clock and define the target frequency:
+    
+    ```
+    create_clock -period $PERIOD -name $CLK_NAME [get_ports $CLK_PORT]
+    ```
+
