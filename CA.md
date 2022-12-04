@@ -126,3 +126,5 @@
   
     • handle mis-speculations and precise exceptions
 
+<img src="summary_pipeline.png" alt="drawing" width="800"/>
+
