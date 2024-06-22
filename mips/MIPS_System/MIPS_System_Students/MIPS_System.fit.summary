@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sat Mar 23 17:20:50 2024
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : MIPS_System
+Top-level Entity Name : MIPS_System
+Family : MAX 10
+Device : 10M08DAF484C8G
+Timing Models : Final
+Total logic elements : 4,288 / 8,064 ( 53 % )
+    Total combinational functions : 3,212 / 8,064 ( 40 % )
+    Dedicated logic registers : 3,055 / 8,064 ( 38 % )
+Total registers : 3055
+Total pins : 106 / 250 ( 42 % )
+Total virtual pins : 0
+Total memory bits : 77,824 / 387,072 ( 20 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

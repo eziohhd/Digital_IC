@@ -1,0 +1,10 @@
+
+
+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL/ALTPLL_clkgen.v
+
+Mar 13 10PM:19:10>: Error in CNX file format.
+
+Error messages are listed in file
+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL/ALTPLL_clkgen.cnxerr.
+
+Can't create the custom megafunction variation file(s)

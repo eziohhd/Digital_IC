@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_ifft64_radix2_top_behav/xsimk.exe -simmode gui -wdb tb_ifft64_radix2_top_behav.wdb -simrunnum 0 -socket 52283
+Design successfully loaded
+Design Loading Memory Usage: 9396 KB (Peak: 9396 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 10740 KB (Peak: 10740 KB)
+Simulation CPU Usage: 15 ms

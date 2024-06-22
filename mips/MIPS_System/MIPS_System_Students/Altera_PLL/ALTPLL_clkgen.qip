@@ -1,0 +1,9 @@
+set_global_assignment -name IP_TOOL_NAME "ALTPLL"
+set_global_assignment -name IP_TOOL_VERSION "12.1"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ALTPLL_clkgen.ppf"]

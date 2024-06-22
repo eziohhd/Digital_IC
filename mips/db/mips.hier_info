@@ -1,0 +1,7 @@
+|mips
+clk => b~reg0.CLK
+rst_n => b~reg0.ACLR
+a => b~reg0.DATAIN
+b << b~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

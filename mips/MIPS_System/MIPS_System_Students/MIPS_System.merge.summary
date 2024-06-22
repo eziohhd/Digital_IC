@@ -1,0 +1,16 @@
+Partition Merge Status : Successful - Thu Mar 21 20:33:45 2024
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : MIPS_System
+Top-level Entity Name : MIPS_System
+Family : MAX 10
+Total logic elements : 5,254
+    Total combinational functions : 3,155
+    Dedicated logic registers : 3,055
+Total registers : 3055
+Total pins : 106
+Total virtual pins : 0
+Total memory bits : 77,824
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

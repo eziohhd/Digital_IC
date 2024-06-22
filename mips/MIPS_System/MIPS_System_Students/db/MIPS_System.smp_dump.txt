@@ -1,0 +1,399 @@
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw17|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw16|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw15|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw14|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw13|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw12|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw11|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw10|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw9|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw8|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw7|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw6|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw5|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw4|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw3|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw2|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw1|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:sw0|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:key3|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:key2|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |MIPS_System|GPIO:uGPIO|key_detect:key1|c_state
+Name c_state.S15 c_state.S14 c_state.S13 c_state.S12 c_state.S11 c_state.S10 c_state.S9 c_state.S8 c_state.S7 c_state.S6 c_state.S5 c_state.S4 c_state.S3 c_state.S2 c_state.S1 c_state.S0 
+c_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

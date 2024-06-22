@@ -1,0 +1,84 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=32;
+DEPTH=2048;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	000  :   3C020000;
+	001  :   24420055;
+	002  :   3C03FFFF;
+	003  :   24632008;
+	004  :   AC620000;
+	005  :   3C020000;
+	006  :   24420010;
+	007  :   3C03FFFF;
+	008  :   24632010;
+	009  :   AC620000;
+	00A  :   3C020000;
+	00B  :   24420012;
+	00C  :   3C03FFFF;
+	00D  :   24632014;
+	00E  :   AC620000;
+	00F  :   3C020000;
+	010  :   24420030; 
+	011  :   3C03FFFF;
+	012  :   24632018;
+	013  :   AC620000;
+	014  :   3C020000;
+	015  :   24420078;
+	016  :   3C03FFFF;
+	017  :   2463201C;
+	018  :   AC620000;
+	019  :   3C020000;
+	01A  :   24420078;
+	01B  :   3C03FFFF;
+	01C  :   24632020;
+	01D  :   AC620000;
+	01E  :   3C020000;
+	01F  :   24420002;
+	020  :   3C03FFFF;
+	021  :   24632024;
+	022  :   AC620000;
+	023  :   3C020000;
+	024  :   24420079;
+	025  :   3C03FFFF;
+	026  :   24632028;
+	027  :   AC620000;
+	028  :   3C020000;
+	029  :   24420040;
+	02A  :   3C03FFFF;
+	02B  :   2463202C;
+	02C  :   AC620000;
+	02D  :   3C04FFFF;
+	02E  :   3C050000;
+	02F  :   00853022;
+	030  :	 38C7000F;
+	031  :	 3C0800EE;
+	032  :   3C090000;
+	033  :   25290040;
+	034  :   AD280000;
+	035  :   8D2A0000;
+	036  :   08000037;
+        037  :   3C0B0000;
+        038  :   256B0081;
+        039  :   856C0000;
+	03A  :   0800003B;
+	[03B..7FF]  :   00000000;
+END;

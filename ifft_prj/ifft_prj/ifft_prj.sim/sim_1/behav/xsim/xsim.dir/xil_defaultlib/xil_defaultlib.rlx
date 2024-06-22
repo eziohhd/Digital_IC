@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/bf_radix2.v,1711767836,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/bf_radix2_noW.v,,bf_radix2,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/bf_radix2_noW.v,1711803207,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/commutator_radix2.v,,bf_radix2_noW,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/commutator_radix2.v,1711768119,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft_prj/ifft_prj/ifft_prj.srcs/sources_1/new/data_mux.v,,commutator_radix2,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/ifft64_radix2.v,1711806655,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/ifft64_radix2_top.v,,ifft64_radix2,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/ifft64_radix2_top.v,1711804669,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/ifft_ctrl.v,,ifft64_radix2_top,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/ifft_ctrl.v,1711811180,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/tb/tb_ifft64_radix2_top.v,,ifft_ctrl,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/tb/tb_ifft64_radix2_top.v,1711811459,verilog,,,,tb_ifft64_radix2_top,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft_prj/ifft_prj/ifft_prj.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/ezioh/Desktop/Digital_IC/ifft_prj/ifft_prj/ifft_prj.srcs/sources_1/new/data_mux.v,1711806576,verilog,,C:/Users/ezioh/Desktop/Digital_IC/ifft/orgin_code/132/src/ifft64_radix2.v,,data_mux,,,,,,,,

@@ -1,0 +1,62 @@
+#hex 0
+lui $v0,0
+addiu,$v0,$v0,0x10
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x2010
+sw $v0,0x0000($v1)
+#hex 1
+lui $v0,0
+addiu,$v0,$v0,0x12
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x2014
+sw $v0,0x0000($v1)
+#hex 2
+lui $v0,0
+addiu,$v0,$v0,0x30
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x2018
+sw $v0,0x0000($v1)
+#hex 3
+lui $v0,0
+addiu,$v0,$v0,0x78
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x201C
+sw $v0,0x0000($v1)
+#hex 4
+lui $v0,0
+addiu,$v0,$v0,0x78
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x2020
+sw $v0,0x0000($v1)
+#hex 5
+lui $v0,0
+addiu,$v0,$v0,0x02
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x2024
+sw $v0,0x0000($v1)
+#hex 6
+lui $v0,0
+addiu,$v0,$v0,0x79
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x2028
+sw $v0,0x0000($v1)
+#hex 7
+lui $v0,0
+addiu,$v0,$v0,0x40
+lui,$v1,0xFFFF
+addiu,$v1,$v1,0x202C
+sw $v0,0x0000($v1)
+#nor
+lui , $4, 0xFFFF
+lui, $5, 0x0000
+nor $6, $4, $5
+#xori
+xori $7, $6, 0x000F
+#lh
+lui $8, 0xEE
+lui $9, 0x0000
+addiu $9, $9, 0x40
+sw $8, 0x0000($9)
+lui $11,0x0000
+addiu $11, $11, 0x40
+lh $12,0x0000($11)

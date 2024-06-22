@@ -1,0 +1,523 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/simulation/questa
+vadder
+Z1 !s110 1711185726
+!i10b 1
+!s100 U:]J:cKO4fcR=YJePkOMl1
+IL0[kD2k;M[Q;mo]9OQ[zZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1710870384
+Z4 8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mipsparts.v
+Z5 FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mipsparts.v
+L0 48
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1711185726.000000
+Z8 !s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mipsparts.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mipsparts.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU
+Z12 tCvgOpt 0
+vAddr_Decoder
+Z13 !s110 1711185727
+!i10b 1
+!s100 6I4>fJ3kOl3`UQQaR`gRV2
+Im9MCS6dEC0R8<KJU[FhH<1
+R2
+R0
+w1361244320
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Decoder/Addr_Decoder.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Decoder/Addr_Decoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z14 !s108 1711185727.000000
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Decoder/Addr_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Decoder|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Decoder/Addr_Decoder.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Decoder
+R12
+n@addr_@decoder
+vALTPLL_clkgen
+R13
+!i10b 1
+!s100 ]`2dA]@:<Gl;^ToKFUQY21
+I_7UFTgm?7ZKzK<>e4_Q:72
+R2
+R0
+w1710340107
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL/ALTPLL_clkgen.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL/ALTPLL_clkgen.v
+Z15 L0 39
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL/ALTPLL_clkgen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL/ALTPLL_clkgen.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Altera_PLL
+R12
+n@a@l@t@p@l@l_clkgen
+vALTPLL_clkgen_altpll
+R13
+!i10b 1
+!s100 Ud7EGA^G:WJMXzNj`X>_;1
+I0YJ7hk^8QA340Gof7VhRo0
+R2
+R0
+w1710340123
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/db/altpll_clkgen_altpll.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/db/altpll_clkgen_altpll.v
+L0 30
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/db/altpll_clkgen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/db|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/db/altpll_clkgen_altpll.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/db
+R12
+n@a@l@t@p@l@l_clkgen_altpll
+valu
+R1
+!i10b 1
+!s100 h66QiJ:fR]?k6RcP36`1M0
+I?G6i[N_36WmXZ8>67S7EU0
+R2
+R0
+R3
+R4
+R5
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valudec
+R1
+!i10b 1
+!s100 c6k;K8nA4TdN`VoL>F8UX1
+I7>RLV>BZNHo?oQHhL9UQ10
+R2
+R0
+Z16 w1711185590
+Z17 8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mips.v
+Z18 FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mips.v
+L0 147
+R6
+r1
+!s85 0
+31
+R7
+Z19 !s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mips.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_CPU/mips.v|
+!i113 1
+R10
+R11
+R12
+vcontroller
+R1
+!i10b 1
+!s100 X?N_P=TS45MNFMZ0=9U_A3
+IbLET[6U]N^fO:2TF[WFY[1
+R2
+R0
+R16
+R17
+R18
+Z21 L0 79
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!i113 1
+R10
+R11
+R12
+vdatapath
+R1
+!i10b 1
+!s100 K5>EkfQ>d@Af_m@5mFl;O2
+I8Gjj=EU5jZ8=[neOg9g8;3
+R2
+R0
+R16
+R17
+R18
+L0 172
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!i113 1
+R10
+R11
+R12
+vflopenr
+R1
+!i10b 1
+!s100 z9GUdY2HOH<^VLEnI`DPY3
+IblAAee=RaS7jDKHDC4C`12
+R2
+R0
+R3
+R4
+R5
+L0 106
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vflopr
+R1
+!i10b 1
+!s100 MfzcJkHz<P__nW1dUbk4:2
+I3_>UJI3D1n;GTGnK4Xgbd0
+R2
+R0
+R3
+R4
+R5
+L0 93
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vGPIO
+R13
+!i10b 1
+!s100 k]VgER[GO0jZM5hV:5DNl2
+IbaX<D9O_<KSIRzoLi7nXf1
+R2
+R0
+Z22 w1360295332
+Z23 8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/GPIO/GPIO.v
+Z24 FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/GPIO/GPIO.v
+L0 20
+R6
+r1
+!s85 0
+31
+R14
+Z25 !s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/GPIO/GPIO.v|
+Z26 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/GPIO|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/GPIO/GPIO.v|
+!i113 1
+R10
+Z27 !s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/GPIO
+R12
+n@g@p@i@o
+vkey_detect
+R13
+!i10b 1
+!s100 RzTog4cQP3NmVL60jz:=U3
+I0A1lV7V^CLzb>@dNlEo8i1
+R2
+R0
+R22
+R23
+R24
+L0 257
+R6
+r1
+!s85 0
+31
+R14
+R25
+R26
+!i113 1
+R10
+R27
+R12
+vmaindec
+R1
+!i10b 1
+!s100 89BMcQ72AYWmVS]g2a>hW3
+I;XPV498aQ1=o3ca62Qa1A2
+R2
+R0
+R16
+R17
+R18
+L0 115
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!i113 1
+R10
+R11
+R12
+vmips
+R1
+!i10b 1
+!s100 BdAjU7Znk58QhJn3_6=b<2
+I:C^@oA:@fTeE[X_B9hno?3
+R2
+R0
+R16
+R17
+R18
+L0 15
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!i113 1
+R10
+R11
+R12
+vMIPS_System
+R1
+!i10b 1
+!s100 hKjbm=Z2S1K6[jl:Ac7`H2
+IHOYnh`9;2?2Vnz?[MgJki3
+R2
+R0
+w1360554356
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System.v|
+!i113 1
+R10
+Z28 !s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students
+R12
+n@m@i@p@s_@system
+vMIPS_System_tb
+R13
+!i10b 1
+!s100 oHHKZN34VbH00MO1YnoZg0
+II;nPC2:T><CgalAAhj_K@0
+R2
+R0
+w1710346975
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System_tb.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/MIPS_System_tb.v|
+!i113 1
+R10
+R28
+R12
+n@m@i@p@s_@system_tb
+vmux2
+R1
+!i10b 1
+!s100 A1DB:IZ?QhW6n:mD59lO_1
+IakSMSgFaz[hEcG;N9cZIn3
+R2
+R0
+R3
+R4
+R5
+L0 120
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vram2port_inst_data
+R13
+!i10b 1
+!s100 8Z0CbLeo5T92dBC`>WdfB3
+IVZMm@Bb8]F?MD7Ycn>:=_3
+R2
+R0
+w1361238072
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Alera_Mem_Dual_Port/ram2port_inst_data.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Alera_Mem_Dual_Port/ram2port_inst_data.v
+R15
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Alera_Mem_Dual_Port/ram2port_inst_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Alera_Mem_Dual_Port|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Alera_Mem_Dual_Port/ram2port_inst_data.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Alera_Mem_Dual_Port
+R12
+vregfile
+R1
+!i10b 1
+!s100 WA3[EGP7;YmZhGoX>=FHD2
+I2I7XjLVT5Dzcjo4gPdMDa1
+R2
+R0
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vshift_left_16
+R1
+!i10b 1
+!s100 B;bRYFhc8CRPcDiW_Cdj_0
+I<XXgWLK<nU4ClUgWeaoc41
+R2
+R0
+R3
+R4
+R5
+R21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vsign_zero_ext
+R1
+!i10b 1
+!s100 PaL7;A;Bn7EVJAnhgiT^93
+IYHcIioCCEfV<;aMb]i`A:1
+R2
+R0
+R3
+R4
+R5
+L0 65
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vsl2
+R1
+!i10b 1
+!s100 ckaEdZDAz3CQ7cfQDehE[1
+IW8;`nVzXn2JLU8@cj^=8N2
+R2
+R0
+R3
+R4
+R5
+L0 56
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vTimerCounter
+R13
+!i10b 1
+!s100 [;o0TdnV]EZ8dFQHIFZ`n1
+IIP`5OdMI0S^51iS]XA]Ml1
+R2
+R0
+w1360295604
+8C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Timer/TimerCounter.v
+FC:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Timer/TimerCounter.v
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Timer/TimerCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Timer|C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Timer/TimerCounter.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ezioh/Desktop/mips/MIPS_System/MIPS_System_Students/Timer
+R12
+n@timer@counter

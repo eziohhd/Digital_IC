@@ -1,0 +1,6 @@
+module test
+(
+	input wire what;
+	
+)
+endmodule

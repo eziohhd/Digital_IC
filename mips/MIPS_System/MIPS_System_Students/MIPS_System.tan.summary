@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.010 ns
+From           : KEY[2]
+To             : GPIO:uGPIO|key_detect:key2|c_state.S11
+From Clock     : --
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.014 ns
+From           : GPIO:uGPIO|HEX7_R[4]
+To             : HEX7[4]
+From Clock     : CLOCK_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.823 ns
+From           : SW[6]
+To             : GPIO:uGPIO|key_detect:sw6|c_state.S5
+From Clock     : --
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ALTPLL_clkgen:pll0|altpll:altpll_component|_clk2'
+Slack          : 4.964 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a16~porta_address_reg10
+To             : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a30~portb_datain_reg1
+From Clock     : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk1
+To Clock       : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ALTPLL_clkgen:pll0|altpll:altpll_component|_clk1'
+Slack          : 21.388 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : mips:mips_cpu|datapath:dp|flopr:pcreg|q[4]
+To             : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a20~porta_address_reg2
+From Clock     : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk0
+To Clock       : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ALTPLL_clkgen:pll0|altpll:altpll_component|_clk0'
+Slack          : 37.894 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a1~portb_address_reg10
+To             : mips:mips_cpu|datapath:dp|regfile:rf|R8[1]
+From Clock     : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk2
+To Clock       : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'ALTPLL_clkgen:pll0|altpll:altpll_component|_clk0'
+Slack          : 0.391 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : GPIO:uGPIO|SW_StatusR[14]
+To             : GPIO:uGPIO|SW_StatusR[14]
+From Clock     : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk0
+To Clock       : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'ALTPLL_clkgen:pll0|altpll:altpll_component|_clk1'
+Slack          : 2.645 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a14~porta_datain_reg1
+To             : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a15~porta_memory_reg0
+From Clock     : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk1
+To Clock       : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Clock Hold: 'ALTPLL_clkgen:pll0|altpll:altpll_component|_clk2'
+Slack          : 2.646 ns
+Required Time  : 10.00 MHz ( period = 100.000 ns )
+Actual Time    : N/A
+From           : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a14~portb_datain_reg1
+To             : ram2port_inst_data:Inst_Data_Mem|altsyncram:altsyncram_component|altsyncram_i9b2:auto_generated|ram_block1a15~portb_memory_reg0
+From Clock     : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk2
+To Clock       : ALTPLL_clkgen:pll0|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

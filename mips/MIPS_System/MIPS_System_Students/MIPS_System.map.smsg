@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at clkUnit.v(85): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at clkUnit.v(110): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at clkUnit.v(136): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at miniUART.v(152): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at miniUART.v(92): object "EnabRX" differs only in case from object "EnabRx" in the same scope
+Info (10281): Verilog HDL Declaration information at miniUART.v(93): object "EnabTX" differs only in case from object "EnabTx" in the same scope

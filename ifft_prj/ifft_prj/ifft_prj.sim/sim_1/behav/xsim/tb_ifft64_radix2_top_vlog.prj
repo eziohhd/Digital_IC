@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../ifft/orgin_code/132/src/bf_radix2.v" \
+"../../../../../../ifft/orgin_code/132/src/bf_radix2_noW.v" \
+"../../../../../../ifft/orgin_code/132/src/commutator_radix2.v" \
+"../../../../ifft_prj.srcs/sources_1/new/data_mux.v" \
+"../../../../../../ifft/orgin_code/132/src/ifft64_radix2.v" \
+"../../../../../../ifft/orgin_code/132/src/ifft64_radix2_top.v" \
+"../../../../../../ifft/orgin_code/132/src/ifft_ctrl.v" \
+"../../../../../../ifft/orgin_code/132/tb/tb_ifft64_radix2_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

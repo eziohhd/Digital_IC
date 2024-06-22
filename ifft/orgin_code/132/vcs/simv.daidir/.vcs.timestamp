@@ -1,0 +1,116 @@
+0 
+36
++itf+/app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/vcsdp.tab
++lint=all
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/app11/synopsys/vcs/Q-2020.03-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/libvirsim.so /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/liberrorinf.so /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/libsnpsmalloc.so /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/app11/synopsys/vcs/Q-2020.03-SP2/include
+-Mxllcflags=
+-debug_access+all+bc
+-debug_region+cell
+-full64
+-gen_obj
+-picarchive
+-timescale=1ns/10ps
+/app11/synopsys/vcs/Q-2020.03-SP2/linux64/bin/vcs1
+../src/bf_radix2_noW.v
+../src/bf_radix2.v
+../src/commutator_radix2.v
+../src/ifft64_radix2_top.v
+../src/ifft64_radix2.v
+../src/ifft_ctrl.v
+../tb/tb_ifft64_radix2_top.v
+60
+XLIB_SKIP_ARGB_VISUALS=1
+XDG_SESSION_ID=23212
+XDG_RUNTIME_DIR=/run/user/8257
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/app11/synopsys/vcs/Q-2020.03-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/app11/synopsys/vcs/Q-2020.03-SP2/linux64
+STROOT=/app11/synopsys/tcad_sentaurus_vJ-2014.09-SP1
+SSH_TTY=/dev/pts/7
+SSH_CONNECTION=10.249.203.81 64509 10.192.4.33 22
+SSH_CLIENT=10.249.203.81 64509 22
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SAED_MC_32_28_PDK=/app11/saed_32.28/saed_mc/etc/techs/SAED_PDK_32
+REMOTEHOST=10.249.203.81
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+QRC_HOME=/app11/cadence/EXT15-20-000
+PERL5LIB=/app11/saed_32.28/saed_mc/lib
+OVA_UUM=0
+OSTYPE=linux
+MMSIMHOME=/app11/cadence/MMSIM15-10-345
+MGLS_LICENSE_FILE=17170@lxapp3.cadcam.nus.edu.sg
+MGC_HOME=/app11/mentor/Calibre_2012.4_25.21/ixl_cal_2012.4_25.21
+MFLAGS=
+MC_HOME=/app11/saed_32.28/saed_mc
+MAKELEVEL=1
+MAKEFLAGS=
+LIBRARY_PATH=/app11/intel/Compiler/11.1/075/lib/intel64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+INTEL_LICENSE_FILE=28518@lxapp2.cadcam.nus.edu.sg
+HPEESOF_DIR=/app12/ads/ads2023
+HOSTTYPE=x86_64-linux
+GROUP=saed
+GDM_LANG=en_US.UTF-8
+CIC_INST_DIR=/app11/cadence/IC617-500-1
+CICHOME=/app11/cadence/IC617-500-1
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=32800@lxapp3.cadcam.nus.edu.sg
+CDS_INST_DIR=/app11/cadence/IC617-500-1
+CDS_AUTO_64BIT=ALL
+CDSROOT=/app11/cadence/IC617-500-1
+CDSHOME=/app11/cadence/IC617-500-1
+CDSDIR=/app11/cadence/IC617-500-1
+CDS=/app11/cadence
+ASSURAHOME=/app11/cadence/ASSURA415-001-617
+ANSOFTD_LICENSE_FILE=27200@lxapp3.cadcam.nus.edu.sg
+ADS_LICENSE_FILE=17020@lxapp1.cadcam.nus.edu.sg
+0
+8
+1710402898 ../tb/tb_ifft64_radix2_top.v
+1710402886 ../src/ifft_ctrl.v
+1710402886 ../src/ifft64_radix2.v
+1710402886 ../src/ifft64_radix2_top.v
+1710402886 ../src/commutator_radix2.v
+1710402885 ../src/bf_radix2.v
+1710402886 ../src/bf_radix2_noW.v
+1599016237 /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/vcsdp.tab
+4
+1599016945 /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/libvirsim.so
+1599016702 /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/liberrorinf.so
+1599016660 /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/libsnpsmalloc.so
+1599016699 /app11/synopsys/vcs/Q-2020.03-SP2/linux64/lib/libvfs.so
+1710403638 simv.daidir
+-1 partitionlib

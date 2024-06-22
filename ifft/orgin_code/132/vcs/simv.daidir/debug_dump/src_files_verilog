@@ -1,0 +1,7 @@
+/class4/ug23/a216218l/ee4415_part2/src/bf_radix2.v
+/class4/ug23/a216218l/ee4415_part2/src/bf_radix2_noW.v
+/class4/ug23/a216218l/ee4415_part2/src/commutator_radix2.v
+/class4/ug23/a216218l/ee4415_part2/src/ifft64_radix2.v
+/class4/ug23/a216218l/ee4415_part2/src/ifft64_radix2_top.v
+/class4/ug23/a216218l/ee4415_part2/src/ifft_ctrl.v
+/class4/ug23/a216218l/ee4415_part2/tb/tb_ifft64_radix2_top.v

@@ -1,0 +1,78 @@
+create_power_domain PD_top -include_scope
+create_power_domain PD_core -elements {u_nn_system/u_nn_top}
+create_power_domain PD_sram -elements {u_nn_system/u_sram_all}
+
+create_supply_port VDD_core_port -direction in
+create_supply_port VDD_top_port -direction in
+create_supply_port VDD_sram_port -direction in
+create_supply_port VSS_top_port -direction in
+
+create_supply_net VDD_core_net -domain PD_top
+create_supply_net VDD_core_net -domain PD_core -reuse
+connect_supply_net VDD_core_net -ports {VDD_core_port}
+
+create_supply_net VDD_sram_net -domain PD_top
+create_supply_net VDD_sram_net -domain PD_sram -reuse
+connect_supply_net VDD_sram_net -ports {VDD_sram_port}
+
+create_supply_net VDD_top_net -domain PD_top
+connect_supply_net VDD_top_net -ports {VDD_top_port}
+
+create_supply_net VSS_top_net -domain PD_top
+create_supply_net VSS_top_net -domain PD_core -reuse
+create_supply_net VSS_top_net -domain PD_sram -reuse
+connect_supply_net VSS_top_net -ports {VSS_top_port}
+
+set_domain_supply_net PD_top -primary_power_net VDD_top_net -primary_ground_net VSS_top_net
+set_domain_supply_net PD_core -primary_power_net VDD_core_net  -primary_ground_net VSS_top_net
+set_domain_supply_net PD_sram -primary_power_net VDD_sram_net  -primary_ground_net VSS_top_net
+
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_weight_sram/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_weight_sram2/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_param_sram/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_img_sram/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_feature_sram_array/u_feature_sram_0/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_feature_sram_array/u_feature_sram_1/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_feature_sram_array/u_feature_sram_2/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_feature_sram_array/u_feature_sram_3/VDDCE}
+connect_supply_net VDD_sram_net -ports {u_nn_system/u_sram_all/u_feature_sram_array/u_feature_sram_4/VDDCE}
+
+
+set_level_shifter core_to_sram -domain PD_sram -elements \
+{u_nn_system/u_sram_all/img_sram_din            \
+u_nn_system/u_sram_all/img_sram_addr            \
+u_nn_system/u_sram_all/img_sram_cen            \
+u_nn_system/u_sram_all/img_sram_wen            \
+u_nn_system/u_sram_all/w_sram_din            \
+u_nn_system/u_sram_all/w_sram_addr            \
+u_nn_system/u_sram_all/w_sram_cen            \
+u_nn_system/u_sram_all/w_sram_wen            \
+u_nn_system/u_sram_all/w_sram2_din            \
+u_nn_system/u_sram_all/w_sram2_addr            \
+u_nn_system/u_sram_all/w_sram2_cen            \
+u_nn_system/u_sram_all/w_sram2_wen            \
+u_nn_system/u_sram_all/param_sram_data_in            \
+u_nn_system/u_sram_all/param_sram_addr            \
+u_nn_system/u_sram_all/param_sram_cen            \
+u_nn_system/u_sram_all/param_sram_wr            \
+u_nn_system/u_sram_all/f_sram_din            \
+u_nn_system/u_sram_all/f_sram_addr            \
+u_nn_system/u_sram_all/f_sram_cen            \
+u_nn_system/u_sram_all/f_sram_wen            \
+} -applies_to inputs -rule low_to_high -location self
+map_level_shifter_cell core_to_sram -domain PD_sram -lib_cells {LVLLHD2BWP7T35P140}
+
+set_level_shifter core_to_top -domain PD_core -elements \
+{u_nn_system/u_nn_top/conv1_finish            \
+u_nn_system/u_nn_top/nn_finish            \
+u_nn_system/u_nn_top/nn_final_result            \
+u_nn_system/u_nn_top/nn_fc_bn_result            \
+u_nn_system/u_nn_top/function_ok_flag            \
+u_nn_system/u_nn_top/clk_div_out            \
+} -applies_to outputs -rule low_to_high -location parent
+map_level_shifter_cell core_to_top -domain PD_core -lib_cells {LVLLHD2BWP7T35P140}
+
+add_port_state VDD_top_port -state {VDD 0.810000}
+add_port_state VSS_top_port -state {GND 0.000000}
+add_port_state VDD_core_port -state {VDD_core 0.500000}
+add_port_state VDD_sram_port -state {VDD_sram 0.720000}

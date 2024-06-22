@@ -141,7 +141,9 @@ Note that evevry .lib will provide timing/power/noise information for a single c
 
 ## Elaboration and binding
 
-![elaboration_binding](elaboration_binding.png)
+![
+
+](elaboration_binding.png)
 
 ## Constraint Definition
 
